@@ -15,7 +15,7 @@ Bu, eğlenceli bir spending money uygulamasıdır. Bir anlığına Elon Musk kad
 
 **CSS** : Basit ve düzenli bir görünüm için CSS kullanılmıştır.
 
-# Nasıl Kullanılır
+## Nasıl Kullanılır
 
 Projeyi bilgisayarınıza klonlayın.
 
