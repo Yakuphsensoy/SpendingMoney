@@ -1,6 +1,6 @@
 # 💸 Elon Musk Spending Money Uygulaması 💸 
 
-Bu, eğlenceli bir spending money uygulamasıdır. Bir anlığına Elon Musk kadar zengin olacaksınız! Paranın nasıl harcanacağına siz karar vereceksiniz. 🌟
+Bu, eğlenceli bir spending money uygulamasıdır. Bir anlığına Elon Musk kadar zengin olacaksınız! Paranın nasıl harcanacağına siz karar vereceksiniz. İyi harcamalar :) 🌟
 
 ![asad](https://github.com/Yakuphsensoy/SpendingMoney/assets/89227314/1d04a196-4c8e-45d2-9299-47793b3ef564)
 
