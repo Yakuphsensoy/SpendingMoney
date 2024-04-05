@@ -1,8 +1,6 @@
 import './App.css';
-import React, { useContext } from "react";
+import React from "react";
 import Money from "./components/Money";
-import { useState } from 'react'
-import Card from './components/card';
 import Products from './components/Products';
 
 import { ContextProvider } from "./ContextProvider";

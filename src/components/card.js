@@ -1,5 +1,4 @@
 import { useContext, useState } from "react"
-import App from "../App"
 import '../App.css';
 import { Context } from "../ContextProvider";
 

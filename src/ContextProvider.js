@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useState } from "react";
 
 export const Context = createContext();
 
@@ -7,7 +7,7 @@ const INITIAL_MONEY = 251000000000
 export function ContextProvider({ children }) {
     const [money, setMoney] = useState(INITIAL_MONEY)
     const [myProducts, setMyProducts] = useState([])
-    const [products, setProducts] = useState([
+    const [products] = useState([
         { id: 1, name: 'Spor Araba', price: 1000000, img: 'https://cdn.motor1.com/images/mgl/KbnYmG/s1/2023-rolls-royce-spectre.webp' },
         { id: 2, name: 'Villa', price: 15000000, img: 'https://static.baranselgrup.com/248945-w1920-villa-serengeti.png' },
         { id: 3, name: 'Helikopter', price: 12000000, img: 'https://www.setair.com.tr/images/setair_filomuz_helikopter_galeri_02.jpg' },

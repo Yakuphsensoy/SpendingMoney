@@ -4,7 +4,7 @@ import { Context } from "../ContextProvider"
 
 export default function Products() {
 
-    const { products, setMyProducts, myProduct } = useContext(Context)
+    const { products } = useContext(Context)
 
     return (
         <div>
