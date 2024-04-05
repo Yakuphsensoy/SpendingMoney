@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# 💸 Elon Musk Spending Money Uygulaması 💸 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu, eğlenceli bir spending money uygulamasıdır. Bir anlığına Elon Musk kadar zengin olacaksınız! Paranın nasıl harcanacağına siz karar vereceksiniz. 🌟
 
-## Available Scripts
+![asad](https://github.com/Yakuphsensoy/SpendingMoney/assets/89227314/1d04a196-4c8e-45d2-9299-47793b3ef564)
 
-In the project directory, you can run:
 
-### `npm start`
+## Kullanılan Teknolojiler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**React**: Kullanıcı arayüzü geliştirmek için React kullanılmıştır.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Context API**: Global state yönetimi için React Context API kullanılmıştır.
 
-### `npm test`
+**useState Hook**: Bileşen içindeki state yönetimi için useState hook'u kullanılmıştır.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**CSS** : Basit ve düzenli bir görünüm için CSS kullanılmıştır.
 
-### `npm run build`
+# Nasıl Kullanılır
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Projeyi bilgisayarınıza klonlayın.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Terminalde proje dizinine gidin: **cd spending-money-uygulamasi**.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Gerekli paketleri yüklemek için **npm install** komutunu çalıştırın.
 
-### `npm run eject`
+Proje çalıştırın: **npm start**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tarayıcınızda **localhost:3000** adresine giderek uygulamayı görüntüleyin.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Uygulamayı geliştirme modunda çalıştırır. Tarayıcınızda http://localhost:3000 adresini açarak uygulamayı görebilirsiniz.
 
-## Learn More
+Değişiklik yaptığınızda sayfa otomatik olarak yenilenecektir. Konsolda herhangi bir lint hatasını da görebilirsiniz.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Etkileşimli izleme modunda test çalıştırır. Daha fazla bilgi için test çalıştırma bölümüne bakabilirsiniz.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# npm run build
 
-### Code Splitting
+Uygulamayı üretim için build klasörüne oluşturur. React'i üretim modunda doğru bir şekilde birleştirir ve performans için build optimizasyonu yapar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Build işlemi minified (küçültülmüş) ve dosya adları hash'lerini içerir. Uygulamanız dağıtıma hazırdır!
 
-### Analyzing the Bundle Size
+# npm run eject
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Not: Bu tek yönlü bir işlemdir. Bir kez eject yaptıktan sonra geri dönemezsiniz!
 
-### Making a Progressive Web App
+Eğer build aracından veya yapılandırma seçeneklerinden memnun değilseniz, istediğiniz zaman eject yapabilirsiniz. Bu komut, projenizden tek bir yapılandırma bağımlılığını kaldırır.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Bunun yerine, tüm yapılandırma dosyalarını ve bağımlılıkları (webpack, Babel, ESLint, vs.) doğrudan projenize kopyalar, böylece tam kontrol sahibi olursunuz. Eject yaptıktan sonra, eject dışındaki tüm komutlar hala çalışır, ancak kopyalanan komutlara işaret eder, böylece bunları özelleştirebilirsiniz. Bu noktadan sonra tamamen kendi başınızasınız.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Eject'i kullanmak zorunda değilsiniz. Hazırlanan özellik seti küçük ve orta ölçekli dağıtımlar için uygundur ve bu özelliği kullanmak zorunda hissetmemelisiniz. Ancak, bu aracın özelleştirilemez olması durumunda faydalı olmayacağını anlıyoruz.
